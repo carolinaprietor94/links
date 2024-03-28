@@ -1,55 +1,100 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
   <title> Carolina Prieto </title>
   <meta charset="utf-8">
   <meta name="author" content="Carolina Prieto">
-  
-   <style>
+
+  <style>
     body {
       padding-top: 40px;
       padding-bottom: 40px;
       background-color: #D0E2E3;
       font-family: Cambria;
-}
-    
-
-  .items {
-  background-color: #4A7577;
     }
+
+
+    .items {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+    }
+    .color {
+      background-color: #4A7577; width: 100vw;
+      align-items: center;}
+
     .banner-image {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 200px;
-  }
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 200px;
+  
+    }
 
-  .items {
-  display: flex;
-  flex-direction: column;
+    .banner {
+      display: flex;
   align-items: center;
-}
-h1 {color:azure}
+  justify-content: center;
 
-   </style>
+    }
+
+    .link {
+      background-color: #FFFFFF;
+      display: flex;
+      align-items: center;
+      width: 500px;
+      height: 70px;
+      border-radius: 30px;
+
+    
+    }
+    .interestellar {
+      width: 60px;
+      height: 60px;
+      border-radius: 48px;
+    }
 
 
-  </head>
+    .sapiens {
+      width: 60px;
+      height: 60px;
+      border-radius: 48px;
+    }
+
+    .link a {
+      color: #001e1d;
+      text-decoration: none;
+      text-align: center;
+      flex-grow: 1;
+
+    }
+
+    h1 {
+      color: azure
+    }
+
+  </style>
 
 
-    <body>
-    <div class="items">
-     <div class="banner">
-     <img class="banner-image" src="https://media.licdn.com/dms/image/C5603AQFq3R1NOi0ggA/profile-displayphoto-shrink_800_800/0/1649633421590?e=2147483647&v=beta&t=CO6_1i6PU4sDw9Jx8fA-yF3fhzvbhCTo5Xj3z3M8vNU" alt="Caro head shot">
+</head>
+
+
+<body>
+  <div class="items">
+    <div class="color">
+    <div class="banner">
+      <img class="banner-image"
+        src="https://media.licdn.com/dms/image/C5603AQFq3R1NOi0ggA/profile-displayphoto-shrink_800_800/0/1649633421590?e=2147483647&v=beta&t=CO6_1i6PU4sDw9Jx8fA-yF3fhzvbhCTo5Xj3z3M8vNU"
+        alt="Caro head shot">
+
+
+    <div class="Name">
+      <h1>CAROLINA PRIETO</h1>
     </div>
-    <br>
-     
-
-
-    <div class="Name"> <h1>CAROLINA PRIETO</h1></div>
-    <br>
-    <br>
-
+  </div>
+</div>
     <div class="Social-Icons">
       <a href="https://cl.linkedin.com/in/carolina-prieto-rodriguez-7257ab15b" target="_blank"> LinkedIn</a>
       <br>
@@ -57,8 +102,20 @@ h1 {color:azure}
       <br>
       <a href="https://cl.linkedin.com/in/carolina-prieto-rodriguez-7257ab15b" target="_blank"> Facebook</a>
     </div>
-  </div>
-  
 
-    </body>
+    <div class="link">
+      <img class="sapiens" src="https://www.ynharari.com/wp-content/uploads/2017/01/sapiens.png">
+      <a target="_blank" href="https://www.clubdelecturas.com/2017/09/03/resumen-de-sapiens-de-yuval-noah-harari/">De
+        Animales a Dioses
+        — Yuval Noah</a>
+    </div>
+
+    <div class="link">
+      <img class="interestellar"
+        src="https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg">
+      <a target="_blank" href="https://www.imdb.com/title/tt0816692/"> Interestellar - Christopher Nolan </a>
+    </div>
+  </div>
+</body>
+
 </html>
